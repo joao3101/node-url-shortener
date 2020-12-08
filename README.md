@@ -79,8 +79,6 @@ The response will echo your URL and inform you the newly created `shortId`.
 
 To check if it worked, just go to your preferred browser and enter `localhost:3000/:shortId` where shortId is what you received on your POST response.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
