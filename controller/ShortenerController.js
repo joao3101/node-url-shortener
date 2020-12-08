@@ -50,7 +50,7 @@ const AddUrl = async (req, res) => {
 
 function encryptURL (url) {
   url = url + Math.floor(Date.now() / 1000);
-  url = crypto.createHash('sha256').update(url).digest('base64');
+  url = crypto.createHash('sha256').update(url).digest('hex');
   url = url.substr(0,8);
 
   return url;
